@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details</title>
+</head>
+<body><center><body style="background-color: #CCFD5F;">
+</body>
+    <h1 style="color: red;">Personal Details</h1>
+    <form action="/submit_form" method="post">
+        
+        
+        <lable for="name">Name:</labl>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password" required><br><br>
+        
+        <label for="email">E-mail id:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <lable for="male">Male</lable>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <lable for="female">Female</lable><br><br>
+        
+        <label for="contacts">Contacts#:</label>
+        <input type="contacts" id="contacts" name="contacts" required><br><br>
+        
+        <h2 style="color: red;">Educational Qualification</h2>
+        
+        <label for="degree">Degree:</label>
+        <select name="degree" id="degree">
+        <option value="--Select Group--">--Select Group--</option>
+        </select><br><br>
+        
+        <label for="engineering">Engineering:</label>
+        <select name="engineering" id=engineering>
+        <option value="--Select Group--">--Select Group--</option>
+        </select><br><br>
+        
+        <label for="hobbies">Gender:</label>
+        <input type="checkbox" id="chess" name="hobbies" value="chess" required>
+        <lable for="chess">Playing Chess</lable>
+        <input type="checkbox" id="book" name="hobbies" value="book" required>
+        <lable for="book">Reading Books</lable><br><br>
+        
+        <label  style="color: red;" for="address">Address:</label><br>
+        <textarea id="address" name="address" required></textarea><br><br>
+        
+        <label for="resume">Attch Resume: <input type="submit" value="Choose File"> No file chosen</label><br><br>
+       
+        <input style="background-color: orange"type="submit" value="Submit">
+    </form>
+</center></body>
+</html>
